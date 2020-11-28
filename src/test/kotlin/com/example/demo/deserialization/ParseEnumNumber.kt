@@ -1,9 +1,7 @@
-package com.example.demo
+package com.example.demo.deserialization
 
 import com.example.demo.constant.CommentStatus
-import com.example.demo.constant.UserType
 import com.example.demo.dto.Comment
-import com.example.demo.dto.User
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import org.junit.jupiter.api.Test
