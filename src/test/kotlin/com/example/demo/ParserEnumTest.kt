@@ -6,11 +6,11 @@ import org.junit.jupiter.api.Test
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 
-class ParserModelTest {
+class ParseEnumStringTest {
 	private val mapper = jacksonObjectMapper()
 
 	@Test
-	fun `parse user type with type lowercase` () {
+	fun `parse model with enum string lowercase` () {
 
 		val userJson = """
 			{
